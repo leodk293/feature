@@ -1,0 +1,112 @@
+body{
+    background-color: #FAFAF7;
+}
+p,h2{
+    text-align: center;
+}
+a{
+    font-size: 30px;
+}
+a:hover{
+    text-decoration: none;
+}
+img{
+    height: 50px;
+}
+.gray{
+    color: gray;
+}
+.font-weight{
+    font-weight: 40%;
+}
+
+
+.container{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.column{
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.team-builder{
+    gap: 15px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    border-top: 5px solid red;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px rgba(0 0 0.5) 
+}
+.item-buider{
+    align-self: flex-end;
+}
+.karma{
+    gap: 15px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    border-top: 5px solid yellow;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px rgba(0 0 0.5) 
+}
+.item-karma{
+    align-self: flex-end;
+}
+.supervisor{
+    gap: 15px;
+    background-color: white;
+    border-radius: 5px;
+    order: 1;
+    border: 1px solid white;
+    border-top: 5px solid green;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    box-shadow: 0px 0px 5px rgba(0 0 0.5) 
+}
+.item-supervisor{
+    align-self: flex-end;
+}
+.calculator{
+    gap: 15px;
+    align-self: center;
+    background-color: white;
+    border-radius: 5px;
+    order: 3;
+    border: 1px solid white;
+    border-top: 5px solid darkgreen;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px rgba(0 0 0.5) 
+}
+.item-calculator{
+    align-self: flex-end;
+}
+@media screen and (max-width:990px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .column{
+        display: flex;
+        flex-direction: column;
+    }
+    .team-builder{
+        align-self: center;
+    }
+    .karma{
+        align-self: center;
+    }
+}
